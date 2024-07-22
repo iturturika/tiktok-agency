@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contacts</title>
+  </head>
+  <body
+    style="
+      background-image: url(./img/background.jpg);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-size: cover;
+    "
+  >
+    <header>
+      <h2><a href="./index.html" style="color: #fff">Tiktok Agency</a></h2>
+      <nav>
+        <h3><a href="./contacts.html" style="color: #fff">Contacts</a></h3>
+        <button class="header__button" onclick="window.location.href = './contacts.html'">
+          Work with us
+        </button>
+      </nav>
+    </header>
+
+    <section class="contact-form-section">
+      <form class="contact-form">
+        <div class="contact-form__input">
+          <label>Name</label>
+          <input type="text" />
+        </div>
+
+        <div class="contact-form__input">
+          <label>Email</label>
+          <input type="text" />
+        </div>
+
+        <div class="contact-form__input">
+          <label>Phone</label>
+          <input type="text" />
+        </div>
+        <button class="contact-form__button">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <section class="footer-wrap">
+        <h2><a href="./index.html" style="color: #fff">Tiktok Agency</a></h2>
+        <div class="additional-info">
+          <p style="color: #fff">
+            It is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout.
+          </p>
+          <div class="footer-nav">
+            <div class="footer-socials">
+              <h3 style="color: #fff">Socials</h3>
+              <div class="social-links">
+                <a href="#"
+                  ><img src="./img/Instagram.svg" alt="icon" class="footer-social-icon"
+                /></a>
+                <a href="#"
+                  ><img src="./img/Facebook.svg" alt="icon" class="footer-social-icon"
+                /></a>
+                <a href="#"
+                  ><img src="./img/Tik Tok.svg" alt="icon" class="footer-social-icon"
+                /></a>
+              </div>
+            </div>
+
+            <h3><a href="./contacts.html" style="color: #fff">Contacts</a></h3>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
