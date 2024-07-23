@@ -175,12 +175,13 @@ nav {
   flex-grow: 1;
   align-items: center;
   justify-content: space-between;
+  row-gap: 40px;
 }
 
 .goal {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 320px;
   align-items: center;
   text-align: center;
   row-gap: 10px;
